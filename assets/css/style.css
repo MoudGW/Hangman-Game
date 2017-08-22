@@ -1,0 +1,87 @@
+
+#container{
+    margin-top: 10%;
+    margin-left: 20%;
+
+}
+#head{
+    margin-left: 1%;
+	display: grid;
+}
+#anim{
+    color: gray;
+    margin: 60px;
+    text-align: center;
+    font-size: 25px;
+    animation-name: anim;
+    animation-duration: 1s;
+    animation-iteration-count: 1000;
+}
+@keyframes anim{
+    from {text-shadow:0;
+     opacity: 0.5;
+    }
+    to {opacity: 1;
+       color: rgb(33, 150, 243);
+        font-size: 26px;
+        text-shadow:  1px 0 rgb(33, 150, 243), 0 1px rgb(33, 150, 243), 1px 0 rgb(33, 150, 243), 0 -1px rgb(33, 150, 243);
+}}
+#head1{
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+    z-index: 0;
+	font-weight: bold; 
+	position: absolute;
+    font-size: 130px;
+    background-image: url(water.png);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 5s linear infinite;
+}
+@keyframes animate{
+    from { background-position :0px;
+    }
+    to {background-position :800px;
+        }
+    }
+
+.styler{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#head2{
+    z-index: 1;
+    position: absolute;
+    font-size: 30px;
+    font-family: monospace;
+    font-style: oblique;
+    transform: rotate(-25deg);
+    color: purple;
+    margin-top: 75px;
+    margin-left: 80px;
+    text-shadow: 3px 3px 12px #111;
+    animation-name: head;
+    animation-duration: 3s;
+}
+@keyframes head{
+    from { margin-top: -200px;
+    }
+    to {margin-top: 75px;
+        }
+    }
+#img{
+    zoom: 40%;
+    display: block;
+    margin: 100px auto;
+}
+#right, #left{
+    width: 30%;
+    min-height: 500px;
+    height: auto;
+    border: dotted 4px darkslategrey;
+    margin-top: 125px;
+    font-family: 'Open Sans', sans-serif;
+}
+#core{
+        display: -webkit-box;
+}
