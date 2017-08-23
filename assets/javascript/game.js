@@ -15,7 +15,7 @@ sound1.playbackRate=3;
 sound1.play();
 document.addEventListener('keypress', start);
 function  init(){
-  document.getElementById("alert").style='animation-duration: 10s;';
+  document.getElementById("alert").style='animation-iteration-count: 2;';
   document.getElementById("alert").innerHTML="guess team city";
   var backsound=new Audio("assets/audio/backsound.mp3");
   backsound.play();
