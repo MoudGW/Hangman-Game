@@ -68,9 +68,11 @@ function  algo(e){
       guess--;
       }
       if(guess<0){
-       document.getElementById("right").setAttribute("style", "font-size: 40px;text-align: center;font-style: italic;color: #ff0000;padding: 100px 16px;");
+       var right=document.getElementById("right");
+       right.setAttribute("style", "font-size: 20px;text-align: center");   
        document.getElementById("left").innerHTML=" ";
-       return document.getElementById("right").innerHTML= "you lost refresh to play";
+       document.getElementById("right").innerHTML=" ";
+       return document.getElementById("right").innerHTML=("<a  href='index.html'><button style='padding: 20px 40px;font-size: 20px;background-color: rgb(33, 150, 243);border: none; margin-top: 155px;'>replay</button></a>");
       }
       if (word_.join("")==name) {
       word_=[];
