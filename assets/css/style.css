@@ -1,6 +1,8 @@
-
+body{
+    background-image: url(wall.png);
+}
 #container{
-    margin-top: 10%;
+    margin-top: 3%;
     margin-left: 20%;
 
 }
@@ -86,7 +88,7 @@
         display: -webkit-box;
     }
     #alert{
-    margin-top: -190px;
+    margin-top: -84px;
     font-family: 'Open Sans', sans-serif;
     color: white;
     padding: 6px 0px;
@@ -98,12 +100,12 @@
     border-radius: 0px 0px 10px 10px;
     height: 30px;
     animation-name: alertani;
-    animation-duration: 8s;
+    animation-duration: 6s;
     }
     @keyframes alertani{
 
-        50%{ margin-top: -145px;;
+        50%{     margin-top: -42px;
         }
-        100%{margin-top: -190px;
+        100%{margin-top: -84px;
         }
     }
