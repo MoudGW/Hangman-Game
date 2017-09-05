@@ -72,7 +72,7 @@ function  algo(e){
        right.setAttribute("style", "font-size: 20px;text-align: center");   
        document.getElementById("left").innerHTML=" ";
        document.getElementById("right").innerHTML=" ";
-       return document.getElementById("right").innerHTML=("<a  href='index.html'><button style='padding: 20px 40px;font-size: 20px;background-color: rgb(33, 150, 243);border: none; margin-top: 155px;'>replay</button></a>");
+       return document.getElementById("right").innerHTML=("<a  href='index.html'><button style='    border-radius: 10px 10px;padding: 20px 40px;font-size: 20px;background-color: rgb(33, 150, 243);border: none; margin-top: 155px;'>replay</button></a>");
       }
       if (word_.join("")==name) {
       word_=[];
